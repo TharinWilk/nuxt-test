@@ -1,8 +1,8 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-export default defineNuxtConfig({
+export default {
   target: "static",
   router: {
-    base: "https://tharinwilk.github.io/nuxt-test/",
+    base: "/nuxt-test/",
   },
   modules: ["nuxt-icon"],
-});
+};
