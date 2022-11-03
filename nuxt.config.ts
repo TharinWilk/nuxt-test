@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     base: "/nuxt-test/",
   },
   app: {
-    baseURL: "http://tharinwilk.github.io/nuxt-test/",
+    baseURL: "/nuxt-test/",
   },
   modules: ["nuxt-icon"],
 });
