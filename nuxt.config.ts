@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   target: "static",
   router: {
-    base: "/nuxt-test/",
+    base: "https://tharinwilk.github.io/nuxt-test/",
   },
   modules: ["nuxt-icon"],
 });
