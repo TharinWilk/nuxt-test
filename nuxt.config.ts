@@ -6,4 +6,9 @@ export default defineNuxtConfig({
     base: "/nuxt-test/",
   },
   modules: ["nuxt-icon"],
+  runtimeConfig: {
+    public: {
+      apiBase: "/nuxt-test/",
+    },
+  },
 });
