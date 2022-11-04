@@ -4,8 +4,5 @@ export default defineNuxtConfig({
   router: {
     base: "/nuxt-test/",
   },
-  app: {
-    baseURL: "/nuxt-test/",
-  },
   modules: ["nuxt-icon"],
 });
