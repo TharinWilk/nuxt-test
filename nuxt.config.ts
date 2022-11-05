@@ -6,8 +6,9 @@ export default defineNuxtConfig({
     base: "/nuxt-test/",
   },
 
-  generate: {
-    routes: ["/nuxt-test/"],
+  app: {
+    baseURL: "/nuxt-test/",
+    buildAssetsDir: "/nuxt-test/_nuxt/",
   },
 
   modules: ["nuxt-icon"],
