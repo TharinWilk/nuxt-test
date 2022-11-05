@@ -6,5 +6,13 @@ export default {
     base: "/nuxt-test/",
   },
 
+  generate: {
+    routes: [
+      {
+        path: "/nuxt-test",
+      },
+    ],
+  },
+
   modules: ["nuxt-icon"],
 };
