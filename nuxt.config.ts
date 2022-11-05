@@ -7,11 +7,7 @@ export default defineNuxtConfig({
   },
 
   generate: {
-    routes: [
-      {
-        path: "/nuxt-test",
-      },
-    ],
+    routes: ["/nuxt-test/"],
   },
 
   modules: ["nuxt-icon"],
