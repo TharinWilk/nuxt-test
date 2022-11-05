@@ -1,5 +1,5 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-export default {
+export default defineNuxtConfig({
   target: "static",
 
   router: {
@@ -15,4 +15,4 @@ export default {
   },
 
   modules: ["nuxt-icon"],
-};
+});
